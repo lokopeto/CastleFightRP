@@ -14,7 +14,7 @@ jobs:
         git pull
         rm -f release.zip
     - name: Archive Release
-      uses: lokopeto/zip-release@master
+      uses: lokopeto/CastleFightRP@master
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
