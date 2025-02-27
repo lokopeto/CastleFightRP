@@ -1,0 +1,109 @@
+{
+    "groups": [{
+        "name": "leg0",
+        "color": 0,
+        "children": [
+            0,
+            1
+        ],
+        "origin": [
+            1.1425,
+            14.28125,
+            5.14125
+        ]
+    }],
+    "textures": {
+        "0": "dmodels/cflogo2/stiched_texture copy",
+        "1": "dmodels/cflogo2/castle"
+    },
+    "elements": [{
+        "name": "leg0",
+        "from": [
+            -1.1425,
+            -6.855,
+            -1.1425
+        ],
+        "to": [
+            1.1425,
+            0,
+            1.1425
+        ],
+        "faces": {
+            "west": {
+                "uv": [
+                    0.64,
+                    6.5,
+                    0,
+                    9.5
+                ],
+                "texture": "#0"
+            },
+            "east": {
+                "uv": [
+                    1.92,
+                    6.5,
+                    1.28,
+                    9.5
+                ],
+                "texture": "#0"
+            },
+            "up": {
+                "uv": [
+                    0.64,
+                    6.5,
+                    1.44,
+                    5.5
+                ],
+                "texture": "#0"
+            },
+            "south": {
+                "uv": [
+                    2.56,
+                    6.5,
+                    1.92,
+                    9.5
+                ],
+                "texture": "#0"
+            },
+            "down": {
+                "uv": [
+                    1.44,
+                    5.5,
+                    1.92,
+                    6.5
+                ],
+                "texture": "#0"
+            },
+            "north": {
+                "uv": [
+                    1.28,
+                    6.5,
+                    0.64,
+                    9.5
+                ],
+                "texture": "#0"
+            }
+        },
+        "rotation": {
+            "axis": "y",
+            "angle": 0,
+            "origin": [
+                -1.1425,
+                -6.855,
+                0
+            ]
+        }
+    }],
+    "display": {"head": {
+        "translation": [
+            32,
+            25,
+            32
+        ],
+        "scale": [
+            4,
+            4,
+            4
+        ]
+    }}
+}

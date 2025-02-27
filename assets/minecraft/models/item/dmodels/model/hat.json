@@ -1,0 +1,106 @@
+{
+    "groups": [{
+        "name": "hat",
+        "color": 0,
+        "children": [
+            0,
+            1
+        ],
+        "origin": [
+            0,
+            13.71,
+            0
+        ]
+    }],
+    "textures": {"0": "dmodels/model/asdasd"},
+    "elements": [{
+        "name": "hat",
+        "from": [
+            -2.285,
+            0,
+            -2.285
+        ],
+        "to": [
+            2.285,
+            4.57,
+            2.285
+        ],
+        "faces": {
+            "west": {
+                "uv": [
+                    7.68,
+                    2,
+                    8.96,
+                    4
+                ],
+                "texture": "#0"
+            },
+            "east": {
+                "uv": [
+                    5.12,
+                    2,
+                    6.4,
+                    4
+                ],
+                "texture": "#0"
+            },
+            "up": {
+                "uv": [
+                    7.68,
+                    2,
+                    6.4,
+                    0
+                ],
+                "texture": "#0"
+            },
+            "south": {
+                "uv": [
+                    8.96,
+                    2,
+                    10.24,
+                    4
+                ],
+                "texture": "#0"
+            },
+            "down": {
+                "uv": [
+                    8.96,
+                    0,
+                    7.68,
+                    2
+                ],
+                "texture": "#0"
+            },
+            "north": {
+                "uv": [
+                    6.4,
+                    2,
+                    7.68,
+                    4
+                ],
+                "texture": "#0"
+            }
+        },
+        "rotation": {
+            "axis": "y",
+            "angle": 0,
+            "origin": [
+                0,
+                -13.71,
+                0
+            ]
+        }
+    }],
+    "display": {"head": {
+        "translation": [
+            32,
+            25,
+            32
+        ],
+        "scale": [
+            4,
+            4,
+            4
+        ]
+    }}
+}

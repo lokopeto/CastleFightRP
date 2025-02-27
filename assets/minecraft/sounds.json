@@ -8,5 +8,46 @@
 		"sounds": [
 			"music/login"
 		]
-	}
+	},
+	"fx.error": {
+		"sounds": [
+			"soundscf/error"
+		]
+	},
+	"fx.levelup": {
+		"sounds": [
+			"soundscf/levelup"
+		]
+	},
+	"fx.respawn": {
+		"sounds": [
+			"soundscf/respawn"
+		]
+	},
+	"fx.death": {
+		"sounds": [
+			"soundscf/death"
+		]
+	},
+	"fx.countdown": {
+		"sounds": [
+			"soundscf/countdown"
+		]
+	},
+	"fx.desistencia": {
+		"sounds": [
+			"soundscf/desistencia"
+		]
+	},
+	"fx.perder": {
+		"sounds": [
+			"soundscf/perder"
+		]
+	},
+	"fx.ganhar": {
+	"sounds": [
+		"soundscf/ganhar"
+	]
+	}	
 }
+

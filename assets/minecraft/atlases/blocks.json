@@ -1,0 +1,52 @@
+{"sources": [
+    {
+        "type": "directory",
+        "prefix": "dmodels/bixo5/",
+        "source": "dmodels/bixo5"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/passarin/",
+        "source": "dmodels/passarin"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/bixo/",
+        "source": "dmodels/bixo"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/bixo2/",
+        "source": "dmodels/bixo2"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/bixo3/",
+        "source": "dmodels/bixo3"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/bixo4/",
+        "source": "dmodels/bixo4"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/cflogo/",
+        "source": "dmodels/cflogo"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/cflogo2/",
+        "source": "dmodels/cflogo2"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/model/",
+        "source": "dmodels/model"
+    },
+    {
+        "type": "directory",
+        "prefix": "dmodels/persoacordando/",
+        "source": "dmodels/persoacordando"
+    }
+]}
