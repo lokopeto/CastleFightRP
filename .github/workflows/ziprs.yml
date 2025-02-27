@@ -1,12 +1,17 @@
 name: Create Archive
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Remove old release file if it exists
         run: rm -f release.zip
@@ -23,6 +28,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add release.zip
           git commit -m "New archive release" || echo "No changes to commit"
-          git push
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
